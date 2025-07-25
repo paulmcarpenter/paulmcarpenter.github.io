@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  padding: 40px 0;
+  padding: 0px 0;
   background-color: #292929;
   font-family: arial, sans-serif;
 }
@@ -32,6 +32,12 @@ h1 {
 	padding: 10px 0 0 0;
 	text-align: right;
 }
+
+.tabs-header {
+	background-color: #0779bf;
+	padding: 40px 0 0 0;
+}
+
 .tabs-container {
       background: linear-gradient(to bottom, #0779bf, #48a9e4 100%);
       border-bottom: 1px solid #ccc;
