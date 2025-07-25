@@ -38,54 +38,54 @@ h1 {
       padding: 0 20px;
     }
 
-    .tabs {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
+.tabs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-    .tabs li {
-      margin: 0;
-    }
+.tabs li {
+  margin: 0;
+}
 
-    .tabs a {
-      display: block;
-      padding: 5px 10px 5px 10px;
-      margin-right: 5px;
-      background: #f1f1f1;
-      border: 1px solid #ccc;
-      border-bottom: none;
-      border-radius: 6px 6px 0 0;
-      color: #005999;
-      text-decoration: none;
-      font-weight: regular;
-	  font-size: 13px;
-      transition: background 0.2s;
-    }
+.tabs a {
+  display: block;
+  padding: 5px 10px 5px 10px;
+  margin-right: 5px;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  color: #005999;
+  text-decoration: none;
+  font-weight: regular;
+  font-size: 13px;
+  transition: background 0.2s;
+}
 
-    .tabs a:hover {
-      background: #ffffff;
-    }
+.tabs a:hover {
+  background: #ffffff;
+}
 
-    .tabs a.active {
-      background: #ffffff;
-      color: #000;
-      border-bottom: 1px solid #ffffff;
-    }
+.tabs a.active {
+  background: #ffffff;
+  color: #000;
+  border-bottom: 1px solid #ffffff;
+}
 
-    .content {
-      padding: 20px;
-      background: #ffffff;
-      border: 1px solid #ccc;
-      border-top: none;
-      border-radius: 0 0 6px 6px;
-      margin: 0 20px 20px;
-    }
+.content {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  margin: 0 20px 20px;
+}
 
-	hr.rule {
-		border: 0;
-		height: 0;
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	}
+hr.rule {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
