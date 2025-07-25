@@ -15,3 +15,32 @@ h1 {
 .right-container {
 	text-align: right;
 }
+
+/* Navigation container */
+.tab-nav {
+  display: flex;
+  background-color: #2c3e50;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Individual tab link */
+.tab-nav a {
+  flex: 1;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.tab-nav a:hover {
+  background-color: #34495e;
+}
+
+/* Active tab (optional, add class manually or with JS later) */
+.tab-nav a.active {
+  background-color: #1abc9c;
+}
