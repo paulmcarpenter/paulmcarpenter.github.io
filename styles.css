@@ -15,32 +15,52 @@ h1 {
 .right-container {
 	text-align: right;
 }
+.tabs-container {
+      background-color: #e9ecef;
+      border-bottom: 1px solid #ccc;
+      padding: 0 20px;
+    }
 
-/* Navigation container */
-.tab-nav {
-  display: flex;
-  background-color: #2c3e50;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-}
+    .tabs {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
 
-/* Individual tab link */
-.tab-nav a {
-  flex: 1;
-  padding: 14px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
+    .tabs li {
+      margin: 0;
+    }
 
-/* Hover effect */
-.tab-nav a:hover {
-  background-color: #34495e;
-}
+    .tabs a {
+      display: block;
+      padding: 10px 20px;
+      margin-right: 5px;
+      background: #f1f1f1;
+      border: 1px solid #ccc;
+      border-bottom: none;
+      border-radius: 6px 6px 0 0;
+      color: #005999;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
 
-/* Active tab (optional, add class manually or with JS later) */
-.tab-nav a.active {
-  background-color: #1abc9c;
-}
+    .tabs a:hover {
+      background: #ffffff;
+    }
+
+    .tabs a.active {
+      background: #ffffff;
+      color: #000;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .content {
+      padding: 20px;
+      background: #ffffff;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+      margin: 0 20px 20px;
+    }
